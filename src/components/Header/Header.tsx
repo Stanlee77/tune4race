@@ -5,7 +5,7 @@ import "./Header.sass";
 // @ts-ignore
 import instagramIcon from "../../images/icons/instagram.svg";
 // @ts-ignore
-import facebookIcon from "../../images/icons/facebook_filled.svg";
+import facebookIcon from "../../images/icons/facebook.svg";
 // @ts-ignore
 import tune4raceLogo from "../../images/logo/T4R_transparent.png";
 

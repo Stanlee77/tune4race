@@ -1,15 +1,15 @@
 import * as React from "react"
 
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import Seo from "../components/seo"
 
 const NotFoundPage = () => (
   <Layout>
-    <h1>404: Not Found</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <h1>Błąd 404: Nie znaleziono strony</h1>
+    <p>Spróbuj przejść na stronę główną <a href="http://tune4race.pl">tune4race.pl</a></p>
   </Layout>
 )
 
-export const Head = () => <Seo title="404: Not Found" />
+export const Head = () => <Seo title="404: Nie znaleziono" />
 
 export default NotFoundPage

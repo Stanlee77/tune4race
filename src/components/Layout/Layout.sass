@@ -1,0 +1,21 @@
+@import '../../styles/main.sass'
+
+$prefix: _component_layout_
+
+@font-face
+    font-family: 'isocpeur'
+    src: url(./fonts/isocpeur.ttf)
+
+html
+    box-sizing: border-box
+    overflow-y: scroll
+
+body 
+    padding: 0
+    margin: 0
+    font-family: 'Roboto', sans-serif
+    font-weight: normal
+
+.#{$prefix}wrapper
+    min-height: 100vh
+    background-color: $palette-bacground-primary

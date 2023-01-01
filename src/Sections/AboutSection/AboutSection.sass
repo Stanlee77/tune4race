@@ -1,5 +1,20 @@
 @import "../../styles/main"
 
-._section_about_title 
-    color: $palette-white
+$prefix: _section_about_
+
+.#{$prefix}title 
     font-size: $font-size-h1
+    color: $palette-white
+
+.#{$prefix}description
+    font-size: $font-size-p
+    color: $palette-white
+
+.#{$prefix}companyFont
+    font-family: isocpeur, sans-serif
+    font-size: $font-size-p
+    color: $palette-white
+    font-style: italic
+    font-weight: $font-semi-bold
+    span
+        color: $palette-primary
