@@ -1,0 +1,66 @@
+@import "../../styles/main"
+
+$prefix: "_component_header_"
+$LOGO_HEIGHT: 40px
+
+.#{$prefix}topBar 
+    background-color: $palette-primary
+    width: 100%
+    height: $margin-4
+
+.#{$prefix}wrapper 
+    display: flex
+    justify-content: center
+    align-items: center
+    gap: $padding-8
+    padding-top: $padding-2
+
+.#{$prefix}logo
+    height: $LOGO_HEIGHT
+
+    img
+        height: 100%
+        width: auto
+
+.#{$prefix}navBar
+    display: flex
+    justify-content: space-between
+    gap: $padding-5
+    
+    .#{$prefix}navLink
+        color: $palette-white
+        list-style: none
+        font-size: $font-size-h4
+        
+        transition: transform 200ms ease
+
+        &:hover
+            transform: scale(1.1)
+            cursor: pointer
+
+.#{$prefix}socialMediaWrapper
+    display: flex
+    gap: $padding-3
+
+.#{$prefix}socialMediaTile
+    position: relative
+    display: flex
+    align-items: center
+    justify-content: center
+    transition: transform 200ms ease
+
+    &:hover
+        cursor: pointer
+        transform: scale(1.1)
+
+    img
+        filter: $filter-primary
+        width: $margin-4
+        height: $margin-4
+        margin: 0
+        padding: 0
+
+    a 
+        position: absolute
+        width: 100%
+        height: 100%
